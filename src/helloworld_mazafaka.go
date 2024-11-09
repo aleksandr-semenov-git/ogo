@@ -2,8 +2,12 @@ package main
 
 import "fmt"
 
+func Hi() string {
+	return "Let's go for a walk, after we drink tea."
+}
+
 func main() {
-	fmt.Println("Let's go for a walk, after we drink tea.")
+	fmt.Println(Hi())
 }
 
 // DAP server listening at: 127.0.0.1:60866
